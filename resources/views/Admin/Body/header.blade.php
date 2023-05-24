@@ -18,7 +18,7 @@
                                     <img src="{{asset('Backend/assets/images/logo-sm.png')}}" alt="logo-sm-light" height="22">
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="{{asset('Backend/assets/images/logo-light.png')}}" alt="logo-light" height="20">
+                                    <img src="{{asset('Backend/assets/images/logo2.png')}}" alt="logo-light" height="20">
                                 </span>
                             </a>
                         </div>
@@ -63,7 +63,7 @@
                                 <a class="dropdown-item d-block" href="#"><span class="badge bg-success float-end mt-1">11</span><i class="ri-settings-2-line align-middle me-1"></i> Settings</a>
                                 <a class="dropdown-item" href="#"><i class="ri-lock-unlock-line align-middle me-1"></i> Lock screen</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item text-danger" href="#"><i class="ri-shut-down-line align-middle me-1 text-danger"></i> Logout</a>
+                                <a class="dropdown-item text-danger" href="{{Route('admin.logout')}}"><i class="ri-shut-down-line align-middle me-1 text-danger"></i> Logout</a>
                             </div>
                         </div>
 
